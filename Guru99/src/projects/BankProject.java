@@ -29,7 +29,7 @@ public class BankProject {
 	{
 		driver.get("http://www.demo.guru99.com/V4/");
 		driver.findElement(By.name("uid")).sendKeys("mngr98514");
-		driver.findElement(By.name("password")).sendKeys("Beautiful");
+		driver.findElement(By.name("password")).sendKeys("jEhUzYp");
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
